@@ -1,0 +1,78 @@
+nav {
+  top: 0px;
+  width: 100%;
+  background-color: green;
+  margin-top: 2vh;
+  height: 6vh;
+  display: flex;
+  flex-direction: row;
+}
+
+/*"Divcenter" représente l'icone "✯" au centre du NAV */
+.divcenter {
+  font-size: 60px;
+  margin-top: -20px;
+}
+
+.navLeft {
+  justify-content: flex-start;
+  flex: 1;
+  background-color: red;
+}
+
+.navRight {
+  flex: 1;
+  background-color: blue;
+}
+
+ul {
+  /* width: 392px; */
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  margin: 0;
+  font-family: Arial;
+  padding-inline-start: 0;
+}
+
+li {
+  justify-content: center;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+/*li a:hover représente l'effet de lumière*/
+li a:hover {
+  color: #ffffff;
+  text-shadow: rgb(255, 102, 0) 0px 0px 5px, rgb(255, 102, 0) 0px 0px 10px,
+    rgb(255, 94, 0) 0px 0px 15px, #ffc400 0px 0px 20px, #ffd000 0px 0px 30px,
+    #ffc400 0px 0px 40px, #ffc400 0px 0px 50px, #ffd000 0px 0px 75px;
+  transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  .navRight {
+    display: none;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  .navLeft {
+    justify-content: center;
+    font-size: 15px;
+  }
+
+  .divcenter {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+}

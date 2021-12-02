@@ -1,0 +1,26 @@
+/*MoscowTitle représente le titre situé au millieu du site web */
+.moscowtitle {
+  margin-top: 35vh;
+  margin-bottom: 85vh;
+  flex-direction: column;
+  align-items: center;
+  font-size: 3vh;
+  text-shadow: 4px 4px rgb(0, 0, 0);
+  font-weight: bold;
+  font-family: Arial;
+  color: rgb(209, 209, 209);
+}
+
+.moscowtitle h1 {
+  font-size: 6vh;
+}
+
+.moscowtitle h2 {
+  font-size: 7vh;
+  margin-top: -5vh;
+}
+
+.moscowtitle h3 {
+  font-size: 2vh;
+  margin-top: -5vh;
+}

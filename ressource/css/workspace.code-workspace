@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../userContent"
+	},
+	{
+		"path": "../../src/html"
+	}
+],
+  "settings": {}
+}

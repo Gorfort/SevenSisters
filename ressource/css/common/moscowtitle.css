@@ -1,7 +1,7 @@
 /*MoscowTitle représente le titre situé au millieu du site web */
 .moscowtitle {
   margin-top: 35vh;
-  margin-bottom: 85vh;
+  margin-bottom: 100vh;
   flex-direction: column;
   align-items: center;
   font-size: 3vh;

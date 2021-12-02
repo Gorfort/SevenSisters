@@ -1,7 +1,6 @@
 nav {
   top: 0px;
   width: 100%;
-  background-color: green;
   margin-top: 2vh;
   height: 6vh;
   display: flex;
@@ -17,12 +16,10 @@ nav {
 .navLeft {
   justify-content: flex-start;
   flex: 1;
-  background-color: red;
 }
 
 .navRight {
   flex: 1;
-  background-color: blue;
 }
 
 ul {

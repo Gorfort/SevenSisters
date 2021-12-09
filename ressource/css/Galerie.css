@@ -102,5 +102,6 @@ section {
     margin-right: 0px;
     margin-left: 0px;
     max-width: 100%;
+    max-height: 400px;
   }
 }

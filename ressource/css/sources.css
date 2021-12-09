@@ -67,3 +67,7 @@ section {
 .RedGate {
   flex: 1;
 }
+
+.links {
+  margin-top: 10px;
+}

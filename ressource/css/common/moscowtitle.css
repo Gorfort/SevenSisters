@@ -3,24 +3,59 @@
   margin-top: 35vh;
   margin-bottom: 100vh;
   flex-direction: column;
+  display: flex;
   align-items: center;
-  font-size: 3vh;
   text-shadow: 4px 4px rgb(0, 0, 0);
   font-weight: bold;
   font-family: Arial;
   color: rgb(209, 209, 209);
 }
 
-.moscowtitle h1 {
-  font-size: 6vh;
+.mainTitle {
+  font-size: 70px;
+  text-align: center;
 }
 
-.moscowtitle h2 {
-  font-size: 7vh;
-  margin-top: -5vh;
+.subTitle {
+  font-size: 60px;
+  text-align: center;
 }
 
-.moscowtitle h3 {
-  font-size: 2vh;
-  margin-top: -5vh;
+.miniTitle {
+  font-size: 20px;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .mainTitle {
+    font-size: 45px;
+  }
+
+  .subTitle {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 600px) {
+  .mainTitle {
+    font-size: 40px;
+  }
+
+  .subTitle {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 321px) {
+  .mainTitle {
+    font-size: 30px;
+  }
+
+  .subTitle {
+    font-size: 40px;
+  }
+
+  .miniTitle {
+    font-size: 16px;
+  }
 }

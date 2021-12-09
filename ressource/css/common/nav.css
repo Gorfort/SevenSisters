@@ -2,7 +2,6 @@ nav {
   top: 0px;
   width: 100%;
   margin-top: 2vh;
-  height: 6vh;
   display: flex;
   flex-direction: row;
 }
@@ -71,5 +70,6 @@ li a:hover {
     flex: 1;
     display: flex;
     justify-content: center;
+    display: none;
   }
 }
